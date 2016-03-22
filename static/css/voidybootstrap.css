@@ -8,6 +8,10 @@ body {
     border-color: #131313;
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
 .navbar-default .navbar-nav>li>a {
     color:#bebebe;
 }
