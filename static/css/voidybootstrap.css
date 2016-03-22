@@ -1,11 +1,39 @@
+body {
+    color: #bebebe;
+    background-color: #111111;
+}
 .navbar {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #121212;
+    border-color: #131313;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#bebebe;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+    color:#121212;
+    background-color:#999999
+}
+
+.navbar-default .navbar-brand {
+    color:#bebebe;
+}
+
+blockquote {
+    border-left:5px solid #32750f;
+}
+
+.breadcrumb {
+    background-color: #202020;
 }
 
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #202020;
   }
 }
 
@@ -77,7 +105,7 @@ p.standfirst {
 }
 
 #site-footer {
-    background: #eee;
+    background: #202020;
     border-top: 1px dotted #999;
     margin-top: 40px;
     padding-top: 20px;
